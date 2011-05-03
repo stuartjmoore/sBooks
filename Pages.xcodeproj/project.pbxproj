@@ -7,49 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17526E761370C5C100B06E73 /* BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17526E731370C5C100B06E73 /* BookView.m */; };
+		17526E771370C5C100B06E73 /* SMBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17526E751370C5C100B06E73 /* SMBookController.m */; };
+		17526E7A1370C5E200B06E73 /* bookBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 17526E781370C5E200B06E73 /* bookBack.png */; };
+		17526E7B1370C5E200B06E73 /* innerFold.png in Resources */ = {isa = PBXBuildFile; fileRef = 17526E791370C5E200B06E73 /* innerFold.png */; };
+		17526E821370C63E00B06E73 /* Pages-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17526E811370C63E00B06E73 /* Pages-Info.plist */; };
+		17526E851370C66F00B06E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17526E831370C66F00B06E73 /* main.m */; };
+		17526E891370C6D900B06E73 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17526E871370C6D900B06E73 /* ExampleViewController.m */; };
+		17526E8A1370C6D900B06E73 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17526E881370C6D900B06E73 /* ExampleViewController.xib */; };
+		17526E8E1370C6E200B06E73 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17526E8C1370C6E200B06E73 /* PageViewController.m */; };
+		17526E8F1370C6E200B06E73 /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17526E8D1370C6E200B06E73 /* PageViewController.xib */; };
 		17AB2693136F48F700F5F175 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB2692136F48F700F5F175 /* UIKit.framework */; };
 		17AB2695136F48F700F5F175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB2694136F48F700F5F175 /* Foundation.framework */; };
 		17AB2697136F48F700F5F175 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB2696136F48F700F5F175 /* CoreGraphics.framework */; };
 		17AB269D136F48F700F5F175 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17AB269B136F48F700F5F175 /* InfoPlist.strings */; };
-		17AB26A0136F48F700F5F175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB269F136F48F700F5F175 /* main.m */; };
 		17AB26A3136F48F700F5F175 /* PagesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26A2136F48F700F5F175 /* PagesAppDelegate.m */; };
 		17AB26A6136F48F700F5F175 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26A4136F48F700F5F175 /* MainWindow.xib */; };
-		17AB26A9136F48F700F5F175 /* SMBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26A8136F48F700F5F175 /* SMBookController.m */; };
-		17AB26B6136F499A00F5F175 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26B4136F499A00F5F175 /* ExampleViewController.m */; };
-		17AB26B7136F499A00F5F175 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26B5136F499A00F5F175 /* ExampleViewController.xib */; };
-		17AB26C2136F4D0300F5F175 /* BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26C1136F4D0300F5F175 /* BookView.m */; };
-		17AB26CC136F52EF00F5F175 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26CA136F52EF00F5F175 /* PageViewController.m */; };
-		17AB26CD136F52EF00F5F175 /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26CB136F52EF00F5F175 /* PageViewController.xib */; };
 		17AB26CF136F56B100F5F175 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB26CE136F56B100F5F175 /* QuartzCore.framework */; };
-		17AB26D2136F60FC00F5F175 /* bookBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26D1136F60FC00F5F175 /* bookBack.png */; };
-		17AB26E8136F94F600F5F175 /* innerFold.png in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26E7136F94F600F5F175 /* innerFold.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17526E721370C5C100B06E73 /* BookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookView.h; path = book/BookView.h; sourceTree = "<group>"; };
+		17526E731370C5C100B06E73 /* BookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookView.m; path = book/BookView.m; sourceTree = "<group>"; };
+		17526E741370C5C100B06E73 /* SMBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMBookController.h; path = book/SMBookController.h; sourceTree = "<group>"; };
+		17526E751370C5C100B06E73 /* SMBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMBookController.m; path = book/SMBookController.m; sourceTree = "<group>"; };
+		17526E781370C5E200B06E73 /* bookBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookBack.png; path = Pages/images/bookBack.png; sourceTree = "<group>"; };
+		17526E791370C5E200B06E73 /* innerFold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = innerFold.png; path = Pages/images/innerFold.png; sourceTree = "<group>"; };
+		17526E811370C63E00B06E73 /* Pages-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pages-Info.plist"; sourceTree = "<group>"; };
+		17526E831370C66F00B06E73 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17526E841370C66F00B06E73 /* Pages-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pages-Prefix.pch"; sourceTree = "<group>"; };
+		17526E861370C6D900B06E73 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleViewController.h; path = Pages/ExampleView/ExampleViewController.h; sourceTree = "<group>"; };
+		17526E871370C6D900B06E73 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleViewController.m; path = Pages/ExampleView/ExampleViewController.m; sourceTree = "<group>"; };
+		17526E881370C6D900B06E73 /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExampleViewController.xib; path = Pages/ExampleView/ExampleViewController.xib; sourceTree = "<group>"; };
+		17526E8B1370C6E200B06E73 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageViewController.h; path = Pages/PageView/PageViewController.h; sourceTree = "<group>"; };
+		17526E8C1370C6E200B06E73 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageViewController.m; path = Pages/PageView/PageViewController.m; sourceTree = "<group>"; };
+		17526E8D1370C6E200B06E73 /* PageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PageViewController.xib; path = Pages/PageView/PageViewController.xib; sourceTree = "<group>"; };
 		17AB268E136F48F700F5F175 /* Pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AB2692136F48F700F5F175 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		17AB2694136F48F700F5F175 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17AB2696136F48F700F5F175 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		17AB269A136F48F700F5F175 /* Pages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pages-Info.plist"; sourceTree = "<group>"; };
 		17AB269C136F48F700F5F175 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		17AB269E136F48F700F5F175 /* Pages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pages-Prefix.pch"; sourceTree = "<group>"; };
-		17AB269F136F48F700F5F175 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17AB26A1136F48F700F5F175 /* PagesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PagesAppDelegate.h; path = Pages/PagesAppDelegate.h; sourceTree = "<group>"; };
 		17AB26A2136F48F700F5F175 /* PagesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PagesAppDelegate.m; path = Pages/PagesAppDelegate.m; sourceTree = "<group>"; };
 		17AB26A5136F48F700F5F175 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		17AB26A7136F48F700F5F175 /* SMBookController.h */ = {isa = PBXFileReference; path = SMBookController.h; sourceTree = "<group>"; };
-		17AB26A8136F48F700F5F175 /* SMBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMBookController.m; sourceTree = "<group>"; };
-		17AB26B3136F499A00F5F175 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
-		17AB26B4136F499A00F5F175 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
-		17AB26B5136F499A00F5F175 /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
-		17AB26C0136F4D0300F5F175 /* BookView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = BookView.h; sourceTree = "<group>"; };
-		17AB26C1136F4D0300F5F175 /* BookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookView.m; sourceTree = "<group>"; };
-		17AB26C9136F52EF00F5F175 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
-		17AB26CA136F52EF00F5F175 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
-		17AB26CB136F52EF00F5F175 /* PageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
 		17AB26CE136F56B100F5F175 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		17AB26D1136F60FC00F5F175 /* bookBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookBack.png; sourceTree = "<group>"; };
-		17AB26E7136F94F600F5F175 /* innerFold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innerFold.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +103,10 @@
 		17AB2698136F48F700F5F175 /* BookView */ = {
 			isa = PBXGroup;
 			children = (
-				17AB26C0136F4D0300F5F175 /* BookView.h */,
-				17AB26C1136F4D0300F5F175 /* BookView.m */,
-				17AB26A7136F48F700F5F175 /* SMBookController.h */,
-				17AB26A8136F48F700F5F175 /* SMBookController.m */,
+				17526E721370C5C100B06E73 /* BookView.h */,
+				17526E731370C5C100B06E73 /* BookView.m */,
+				17526E741370C5C100B06E73 /* SMBookController.h */,
+				17526E751370C5C100B06E73 /* SMBookController.m */,
 			);
 			name = BookView;
 			path = Pages;
@@ -114,10 +115,10 @@
 		17AB2699136F48F700F5F175 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				17AB269A136F48F700F5F175 /* Pages-Info.plist */,
 				17AB269B136F48F700F5F175 /* InfoPlist.strings */,
-				17AB269E136F48F700F5F175 /* Pages-Prefix.pch */,
-				17AB269F136F48F700F5F175 /* main.m */,
+				17526E811370C63E00B06E73 /* Pages-Info.plist */,
+				17526E831370C66F00B06E73 /* main.m */,
+				17526E841370C66F00B06E73 /* Pages-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			path = Pages;
@@ -128,10 +129,10 @@
 			children = (
 				17AB26A1136F48F700F5F175 /* PagesAppDelegate.h */,
 				17AB26A2136F48F700F5F175 /* PagesAppDelegate.m */,
-				17AB26B3136F499A00F5F175 /* ExampleViewController.h */,
-				17AB26B4136F499A00F5F175 /* ExampleViewController.m */,
 				17AB26A4136F48F700F5F175 /* MainWindow.xib */,
-				17AB26B5136F499A00F5F175 /* ExampleViewController.xib */,
+				17526E861370C6D900B06E73 /* ExampleViewController.h */,
+				17526E871370C6D900B06E73 /* ExampleViewController.m */,
+				17526E881370C6D900B06E73 /* ExampleViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -139,9 +140,9 @@
 		17AB26C8136F52A300F5F175 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				17AB26C9136F52EF00F5F175 /* PageViewController.h */,
-				17AB26CA136F52EF00F5F175 /* PageViewController.m */,
-				17AB26CB136F52EF00F5F175 /* PageViewController.xib */,
+				17526E8B1370C6E200B06E73 /* PageViewController.h */,
+				17526E8C1370C6E200B06E73 /* PageViewController.m */,
+				17526E8D1370C6E200B06E73 /* PageViewController.xib */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -149,8 +150,8 @@
 		17AB26D0136F60EC00F5F175 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				17AB26E7136F94F600F5F175 /* innerFold.png */,
-				17AB26D1136F60FC00F5F175 /* bookBack.png */,
+				17526E781370C5E200B06E73 /* bookBack.png */,
+				17526E791370C5E200B06E73 /* innerFold.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -204,10 +205,11 @@
 			files = (
 				17AB269D136F48F700F5F175 /* InfoPlist.strings in Resources */,
 				17AB26A6136F48F700F5F175 /* MainWindow.xib in Resources */,
-				17AB26B7136F499A00F5F175 /* ExampleViewController.xib in Resources */,
-				17AB26CD136F52EF00F5F175 /* PageViewController.xib in Resources */,
-				17AB26D2136F60FC00F5F175 /* bookBack.png in Resources */,
-				17AB26E8136F94F600F5F175 /* innerFold.png in Resources */,
+				17526E7A1370C5E200B06E73 /* bookBack.png in Resources */,
+				17526E7B1370C5E200B06E73 /* innerFold.png in Resources */,
+				17526E821370C63E00B06E73 /* Pages-Info.plist in Resources */,
+				17526E8A1370C6D900B06E73 /* ExampleViewController.xib in Resources */,
+				17526E8F1370C6E200B06E73 /* PageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17AB26A0136F48F700F5F175 /* main.m in Sources */,
 				17AB26A3136F48F700F5F175 /* PagesAppDelegate.m in Sources */,
-				17AB26A9136F48F700F5F175 /* SMBookController.m in Sources */,
-				17AB26B6136F499A00F5F175 /* ExampleViewController.m in Sources */,
-				17AB26C2136F4D0300F5F175 /* BookView.m in Sources */,
-				17AB26CC136F52EF00F5F175 /* PageViewController.m in Sources */,
+				17526E761370C5C100B06E73 /* BookView.m in Sources */,
+				17526E771370C5C100B06E73 /* SMBookController.m in Sources */,
+				17526E851370C66F00B06E73 /* main.m in Sources */,
+				17526E891370C6D900B06E73 /* ExampleViewController.m in Sources */,
+				17526E8E1370C6E200B06E73 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
