@@ -14,8 +14,15 @@
 		17AB26A0136F48F700F5F175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB269F136F48F700F5F175 /* main.m */; };
 		17AB26A3136F48F700F5F175 /* PagesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26A2136F48F700F5F175 /* PagesAppDelegate.m */; };
 		17AB26A6136F48F700F5F175 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26A4136F48F700F5F175 /* MainWindow.xib */; };
-		17AB26A9136F48F700F5F175 /* PagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26A8136F48F700F5F175 /* PagesViewController.m */; };
-		17AB26AC136F48F700F5F175 /* PagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26AA136F48F700F5F175 /* PagesViewController.xib */; };
+		17AB26A9136F48F700F5F175 /* SMBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26A8136F48F700F5F175 /* SMBookController.m */; };
+		17AB26B6136F499A00F5F175 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26B4136F499A00F5F175 /* ExampleViewController.m */; };
+		17AB26B7136F499A00F5F175 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26B5136F499A00F5F175 /* ExampleViewController.xib */; };
+		17AB26C2136F4D0300F5F175 /* BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26C1136F4D0300F5F175 /* BookView.m */; };
+		17AB26CC136F52EF00F5F175 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB26CA136F52EF00F5F175 /* PageViewController.m */; };
+		17AB26CD136F52EF00F5F175 /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26CB136F52EF00F5F175 /* PageViewController.xib */; };
+		17AB26CF136F56B100F5F175 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB26CE136F56B100F5F175 /* QuartzCore.framework */; };
+		17AB26D2136F60FC00F5F175 /* bookBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26D1136F60FC00F5F175 /* bookBack.png */; };
+		17AB26E8136F94F600F5F175 /* innerFold.png in Resources */ = {isa = PBXBuildFile; fileRef = 17AB26E7136F94F600F5F175 /* innerFold.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +30,26 @@
 		17AB2692136F48F700F5F175 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		17AB2694136F48F700F5F175 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17AB2696136F48F700F5F175 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		17AB269A136F48F700F5F175 /* Pages-Info.plist */ = {isa = PBXFileReference; path = "Pages-Info.plist"; sourceTree = "<group>"; };
+		17AB269A136F48F700F5F175 /* Pages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pages-Info.plist"; sourceTree = "<group>"; };
 		17AB269C136F48F700F5F175 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		17AB269E136F48F700F5F175 /* Pages-Prefix.pch */ = {isa = PBXFileReference; path = "Pages-Prefix.pch"; sourceTree = "<group>"; };
+		17AB269E136F48F700F5F175 /* Pages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pages-Prefix.pch"; sourceTree = "<group>"; };
 		17AB269F136F48F700F5F175 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		17AB26A1136F48F700F5F175 /* PagesAppDelegate.h */ = {isa = PBXFileReference; path = PagesAppDelegate.h; sourceTree = "<group>"; };
-		17AB26A2136F48F700F5F175 /* PagesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagesAppDelegate.m; sourceTree = "<group>"; };
+		17AB26A1136F48F700F5F175 /* PagesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PagesAppDelegate.h; path = Pages/PagesAppDelegate.h; sourceTree = "<group>"; };
+		17AB26A2136F48F700F5F175 /* PagesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PagesAppDelegate.m; path = Pages/PagesAppDelegate.m; sourceTree = "<group>"; };
 		17AB26A5136F48F700F5F175 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		17AB26A7136F48F700F5F175 /* PagesViewController.h */ = {isa = PBXFileReference; path = PagesViewController.h; sourceTree = "<group>"; };
-		17AB26A8136F48F700F5F175 /* PagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagesViewController.m; sourceTree = "<group>"; };
-		17AB26AB136F48F700F5F175 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PagesViewController.xib; sourceTree = "<group>"; };
+		17AB26A7136F48F700F5F175 /* SMBookController.h */ = {isa = PBXFileReference; path = SMBookController.h; sourceTree = "<group>"; };
+		17AB26A8136F48F700F5F175 /* SMBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMBookController.m; sourceTree = "<group>"; };
+		17AB26B3136F499A00F5F175 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		17AB26B4136F499A00F5F175 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		17AB26B5136F499A00F5F175 /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
+		17AB26C0136F4D0300F5F175 /* BookView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = BookView.h; sourceTree = "<group>"; };
+		17AB26C1136F4D0300F5F175 /* BookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookView.m; sourceTree = "<group>"; };
+		17AB26C9136F52EF00F5F175 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		17AB26CA136F52EF00F5F175 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		17AB26CB136F52EF00F5F175 /* PageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
+		17AB26CE136F56B100F5F175 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		17AB26D1136F60FC00F5F175 /* bookBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookBack.png; sourceTree = "<group>"; };
+		17AB26E7136F94F600F5F175 /* innerFold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innerFold.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AB26CF136F56B100F5F175 /* QuartzCore.framework in Frameworks */,
 				17AB2693136F48F700F5F175 /* UIKit.framework in Frameworks */,
 				17AB2695136F48F700F5F175 /* Foundation.framework in Frameworks */,
 				17AB2697136F48F700F5F175 /* CoreGraphics.framework in Frameworks */,
@@ -52,7 +70,11 @@
 		17AB2683136F48F700F5F175 = {
 			isa = PBXGroup;
 			children = (
-				17AB2698136F48F700F5F175 /* Pages */,
+				17AB2698136F48F700F5F175 /* BookView */,
+				17AB26B2136F492800F5F175 /* Classes */,
+				17AB26C8136F52A300F5F175 /* Pages */,
+				17AB26D0136F60EC00F5F175 /* Images */,
+				17AB2699136F48F700F5F175 /* Supporting Files */,
 				17AB2691136F48F700F5F175 /* Frameworks */,
 				17AB268F136F48F700F5F175 /* Products */,
 			);
@@ -72,21 +94,20 @@
 				17AB2692136F48F700F5F175 /* UIKit.framework */,
 				17AB2694136F48F700F5F175 /* Foundation.framework */,
 				17AB2696136F48F700F5F175 /* CoreGraphics.framework */,
+				17AB26CE136F56B100F5F175 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		17AB2698136F48F700F5F175 /* Pages */ = {
+		17AB2698136F48F700F5F175 /* BookView */ = {
 			isa = PBXGroup;
 			children = (
-				17AB26A1136F48F700F5F175 /* PagesAppDelegate.h */,
-				17AB26A2136F48F700F5F175 /* PagesAppDelegate.m */,
-				17AB26A4136F48F700F5F175 /* MainWindow.xib */,
-				17AB26A7136F48F700F5F175 /* PagesViewController.h */,
-				17AB26A8136F48F700F5F175 /* PagesViewController.m */,
-				17AB26AA136F48F700F5F175 /* PagesViewController.xib */,
-				17AB2699136F48F700F5F175 /* Supporting Files */,
+				17AB26C0136F4D0300F5F175 /* BookView.h */,
+				17AB26C1136F4D0300F5F175 /* BookView.m */,
+				17AB26A7136F48F700F5F175 /* SMBookController.h */,
+				17AB26A8136F48F700F5F175 /* SMBookController.m */,
 			);
+			name = BookView;
 			path = Pages;
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,39 @@
 				17AB269F136F48F700F5F175 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		17AB26B2136F492800F5F175 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17AB26A1136F48F700F5F175 /* PagesAppDelegate.h */,
+				17AB26A2136F48F700F5F175 /* PagesAppDelegate.m */,
+				17AB26B3136F499A00F5F175 /* ExampleViewController.h */,
+				17AB26B4136F499A00F5F175 /* ExampleViewController.m */,
+				17AB26A4136F48F700F5F175 /* MainWindow.xib */,
+				17AB26B5136F499A00F5F175 /* ExampleViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		17AB26C8136F52A300F5F175 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				17AB26C9136F52EF00F5F175 /* PageViewController.h */,
+				17AB26CA136F52EF00F5F175 /* PageViewController.m */,
+				17AB26CB136F52EF00F5F175 /* PageViewController.xib */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		17AB26D0136F60EC00F5F175 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				17AB26E7136F94F600F5F175 /* innerFold.png */,
+				17AB26D1136F60FC00F5F175 /* bookBack.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +204,10 @@
 			files = (
 				17AB269D136F48F700F5F175 /* InfoPlist.strings in Resources */,
 				17AB26A6136F48F700F5F175 /* MainWindow.xib in Resources */,
-				17AB26AC136F48F700F5F175 /* PagesViewController.xib in Resources */,
+				17AB26B7136F499A00F5F175 /* ExampleViewController.xib in Resources */,
+				17AB26CD136F52EF00F5F175 /* PageViewController.xib in Resources */,
+				17AB26D2136F60FC00F5F175 /* bookBack.png in Resources */,
+				17AB26E8136F94F600F5F175 /* innerFold.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +220,10 @@
 			files = (
 				17AB26A0136F48F700F5F175 /* main.m in Sources */,
 				17AB26A3136F48F700F5F175 /* PagesAppDelegate.m in Sources */,
-				17AB26A9136F48F700F5F175 /* PagesViewController.m in Sources */,
+				17AB26A9136F48F700F5F175 /* SMBookController.m in Sources */,
+				17AB26B6136F499A00F5F175 /* ExampleViewController.m in Sources */,
+				17AB26C2136F4D0300F5F175 /* BookView.m in Sources */,
+				17AB26CC136F52EF00F5F175 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +244,7 @@
 				17AB26A5136F48F700F5F175 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		17AB26AA136F48F700F5F175 /* PagesViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17AB26AB136F48F700F5F175 /* en */,
-			);
-			name = PagesViewController.xib;
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +331,7 @@
 				17AB26B1136F48F700F5F175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

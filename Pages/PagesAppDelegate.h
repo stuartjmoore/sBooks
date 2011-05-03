@@ -3,19 +3,18 @@
 //  Pages
 //
 //  Created by Stuart Moore on 5/2/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Intentionally Blank. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@class PagesViewController;
+@class ExampleViewController;
 
-@interface PagesAppDelegate : NSObject <UIApplicationDelegate> {
-
+@interface PagesAppDelegate : NSObject <UIApplicationDelegate> 
+{
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
-@property (nonatomic, retain) IBOutlet PagesViewController *viewController;
 
 @end
