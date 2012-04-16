@@ -1,3 +1,5 @@
+UPDATE: As of iOS 5 (I wrote this right before it came out), this class is useless. Use UIPageViewController instead.
+
 A class that can turn an empty view into an iBooks like page turning view. Each page is a full UIViewController, and the curl follows your finger (rotation included).
 
 This is a pretty simple project; the code was written for a client, so I've obviously stripped all of their data out and put in some Mark Twain. They wanted a page turning effect, but iBooks uses a private API and the other options didn't rotate or look good enough.
